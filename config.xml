@@ -24,7 +24,7 @@
       <plugin name="cordova-plugin-geolocation" source="npm" />
       <plugin name="cordova-plugin-splashscreen" source="npm" />
 <platform name="ios">
-    <icon src="images/icon-60.png" platform="ios" width="180" height="180" />
+    <icon src="images/awesome.png" platform="ios" width="180" height="180" />
     <splash src="images/disneycolorP.png" width="1242" height="2208" />
     <splash src="images/disneycolorL.png" width="2208" height="1242" />
 </platform>
