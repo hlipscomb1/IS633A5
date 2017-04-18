@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+         id          = "edu.uab.business.studentapp"
+         versionCode = "1"
+         version     = "0.0.1" >
+    
+  <!-- versionCode is optional and Android only -->
+  
+  <name>IS 633 Mobile App</name>
+  
+  <description>
+    Mobile App Assignments
+  </description>
+  
+  <author>
+    Hakeem J. Lipscomb
+  </author>
+  
+  <preference name="phonegap-version" value="cli-6.3.0" />
+    <plugin name="cordova-plugin-whitelist" source="npm" />
+      <access origin="*" />
+      <plugin name="cordova-plugin-geolocation" source="npm" />
+<platform name="ios">
+    <icon src="images/deathstar.png" width="180" height="180" />
+    <splash src="images/disneycolor-Portrait.png" width="1242" height="2208" />
+    <splash src="images/disneycolor-Landscape.png" width="2208" height="1242" />
+</platform>
+<preference name="SplashScreenDelay" value="3000" />
+</widget>
+        
