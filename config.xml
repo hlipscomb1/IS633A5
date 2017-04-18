@@ -23,9 +23,10 @@
       <access origin="*" />
       <plugin name="cordova-plugin-geolocation" source="npm" />
       <plugin name="cordova-plugin-splashscreen" source="npm" />
-<platform name="ios">
+<platform name="ios"> <!--iPhone 6 / 6+ -->
     <icon src="images/awesome.png" platform="ios" width="180" height="180" />
     <splash src="images/applecolor.png" width="1242" height="2208" />
+    <splash src="images/apple2.png" width="2208" height="1242" />
 </platform>
 <preference name="SplashScreenDelay" value="3000" />
 </widget>
