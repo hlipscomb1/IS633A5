@@ -22,6 +22,7 @@
     <plugin name="cordova-plugin-whitelist" source="npm" />
       <access origin="*" />
       <plugin name="cordova-plugin-geolocation" source="npm" />
+      <plugin name="cordova-plugin-splashscreen" source="npm" />
 <platform name="ios">
     <icon src="images/deathstar.png" width="180" height="180" />
     <splash src="images/disneycolor-Portrait.png" width="1242" height="2208" />
